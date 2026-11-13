@@ -19,7 +19,7 @@ _AI Assistance was used in this programs development._
 
 Assets and Template - Lava Chat Dev Starter Template
 
-background image - (Pixaby)[https://pixabay.com/photos/water-drops-blue-liquid-clear-839590/]
+background image - [Pixaby](https://pixabay.com/photos/water-drops-blue-liquid-clear-839590/)
 
 
 
