@@ -21,5 +21,11 @@ Assets and Template - Lava Chat Dev Starter Template
 
 background image - [Pixaby](https://pixabay.com/photos/water-drops-blue-liquid-clear-839590/)
 
+favicon - AI GENERATED | CHATGPT --> _"create a sleek modern icon for a messaging app called Commune, similar to discord but intended for casual users, not professional or gamers" & "create another variant but with cool tones and a water based theme"_
+
+splash - AI GENERATED | CHATGPT--> _"create a full banner" (in repsonse to above prompt)_
+
+
+
 
 
