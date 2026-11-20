@@ -59,6 +59,63 @@
     .center{
         padding: 20px;
         flex: 1;
+        overflow: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        scroll-behavior: smooth;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+/* Messages */
+        .message{
+            max-width: 90%;
+            display: flex;
+            gap: 20px;
+
+            &.own{
+                align-self: flex-end;
+
+                .texts{
+                    p{
+                        background-color: #7aaec0;
+                        font-size: 14px;
+                        font-weight: 300;
+                        border-radius: 20px;
+                        padding: 15px;
+                        color: white;
+                    }
+                }
+            }
+
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .texts{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                span{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    background-color: #00000053;
+                    border-radius: 20px;
+                    padding: 15px;
+                    color: white;
+                }
+            }
+        }
         
     }
 

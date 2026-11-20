@@ -10,8 +10,8 @@ const handleEmoji = e => {
   setText(prev => prev + e.emoji)
   setopen(false)
 }
-
   return (
+/*TOP SECTION*/
     <div className='chat'>
       <div className="top">
         <div className="user">
@@ -27,8 +27,83 @@ const handleEmoji = e => {
         </div>
       </div>
 
-      <div className="center"></div>
+{/* CENTER SECTION / MAIN CHAT */}
+      <div className="center">
 
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+
+        <div className="messageOwn">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+
+        <div className="messageOwn">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+
+        <div className="messageOwn">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+
+        <div className="messageOwn">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          </div>
+          <span>1 Min Ago</span>
+        </div>
+      </div>
+
+{/* BOTTOM SECTION */}
       <div className="bottom">
         <div className="icons">
           <img src="./img.png" alt="" />
@@ -43,7 +118,7 @@ const handleEmoji = e => {
           <img src="./emoji.png" alt="" onClick={() => setOpen(prev => !prev)} />
           
           <div className="picker">
-          <EmojiPicker open={open} onEmojiClick={handleEmoji} />
+            <EmojiPicker open={open} onEmojiClick={handleEmoji} />
           </div>
         </div>
 
