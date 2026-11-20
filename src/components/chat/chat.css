@@ -69,24 +69,10 @@
 
 /* Messages */
         .message{
+            flex: 1;
             max-width: 90%;
             display: flex;
-            gap: 20px;
-
-            &.own{
-                align-self: flex-end;
-
-                .texts{
-                    p{
-                        background-color: #7aaec0;
-                        font-size: 14px;
-                        font-weight: 300;
-                        border-radius: 20px;
-                        padding: 15px;
-                        color: white;
-                    }
-                }
-            }
+            gap: 10px;
 
             img{
                 width: 50px;
@@ -101,22 +87,45 @@
                 flex-direction: column;
                 gap: 5px;
 
-                span{
-                    font-size: 14px;
-                    font-weight: bold;
-                }
-
                 p{
                     font-size: 14px;
                     font-weight: 300;
-                    background-color: #00000053;
+                    background-color: #0000004f;
                     border-radius: 20px;
                     padding: 15px;
                     color: white;
                 }
+
+                span{
+                    font-size: 12px;
+                    font-weight: lighter;
+                    font-style: italic;
+                    color: rgba(255, 255, 255, 0.6);
+                }
+
+                img{
+                    width: 100%;
+                    height: 60%;
+                    border-radius: 0px;
+                    object-fit: contain;
+                }
+            }
+
+            &.own{
+                align-self: flex-end;
+                flex-direction:row-reverse;
+                .texts{
+                    p{
+                        background-color: #9fe7ff6a;
+                    }
+
+                    span{
+                        text-align: right;
+                    }
+                }
+                
             }
         }
-        
     }
 
 /* Bottom section of the chat component */

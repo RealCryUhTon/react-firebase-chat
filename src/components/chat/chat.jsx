@@ -35,35 +35,17 @@ const handleEmoji = e => {
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
               Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
-          </div>
           <span>1 Min Ago</span>
+          </div>
         </div>
 
-        <div className="messageOwn">
+        <div className="message own">
           <img src="./avatar.png" alt="" />
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
               Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
-          </div>
           <span>1 Min Ago</span>
-        </div>
-
-        <div className="message">
-          <img src="./avatar.png" alt="" />
-          <div className="texts">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
-              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
           </div>
-          <span>1 Min Ago</span>
-        </div>
-
-        <div className="messageOwn">
-          <img src="./avatar.png" alt="" />
-          <div className="texts">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
-              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
-          </div>
-          <span>1 Min Ago</span>
         </div>
 
         <div className="message">
@@ -71,17 +53,17 @@ const handleEmoji = e => {
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
               Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
-          </div>
           <span>1 Min Ago</span>
+          </div>
         </div>
 
-        <div className="messageOwn">
+        <div className="message own">
           <img src="./avatar.png" alt="" />
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
               Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
-          </div>
           <span>1 Min Ago</span>
+          </div>
         </div>
 
         <div className="message">
@@ -89,17 +71,37 @@ const handleEmoji = e => {
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
               Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
-          </div>
           <span>1 Min Ago</span>
+          </div>
         </div>
 
-        <div className="messageOwn">
+        <div className="message own">
           <img src="./avatar.png" alt="" />
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
               Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
-          </div>
           <span>1 Min Ago</span>
+          </div>
+        </div>
+
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          <span>1 Min Ago</span>
+          </div>
+        </div>
+
+        <div className="message own">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <img src="https://cdn.pixabay.com/photo/2025/03/12/09/59/fashion-9464875_640.jpg" alt="" />
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ut culpa minus odit fuga. 
+              Minima tempora nemo sit, soluta officiis cum, officia est saepe sunt et asperiores, molestias non excepturi.</p>
+          <span>1 Min Ago</span>
+          </div>
         </div>
       </div>
 
